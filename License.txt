@@ -1,0 +1,5 @@
+                                                                             License 
+
+All rights reserved over the verification plan, environment and tests. 
+Publishing and using these files as your own are not allowed.
+@Copyright Dranga Diana
