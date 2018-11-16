@@ -1,0 +1,16 @@
+
+
+Wishbone vplan :
+- all signals must have active high logic.
+
+   1) Checkers: 
+check that when rst = 1, all signals go to 0? (maybe add noise on the wishbone_data, wishbone_addr).
+check that the slave asserts ack only in response to the assertion of the stb signal.
+check that the slave asserts err only in response to the assertion of the stb signal.
+check that the slave asserts rty only in response to the assertionof the stb signal.
+check that only ack or err or rty assert in response to the stb signal.
+check that the cyc remains asserted while a valid cycle is in progress.
+check that stb remains asserted until the slave responds with either ack, err or rty.
+check that asserting ack and the err signals terminate the transfer cycle.
+
+
